@@ -68,13 +68,16 @@ public class AppController {
 		return "Hello World";
 	}
 
-	/*
-	 * @RequestMapping("/isTrue") public Boolean isTrue() { return false; }
-	 */
-
 	
-	  @RequestMapping("/isFalse") public Boolean isFalse() { return true; }
-	 
+	@RequestMapping("/isTrue")
+	public Boolean isTrue() {
+		return false;
+	}
+
+	@RequestMapping("/isFalse")
+	public Boolean isFalse() {
+		return false;
+	}
 
 
 	@RequestMapping("/showData")
