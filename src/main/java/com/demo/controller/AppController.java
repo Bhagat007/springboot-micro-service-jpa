@@ -68,10 +68,14 @@ public class AppController {
 		return "Hello World";
 	}
 
-	@RequestMapping("/isTrue")
-	public Boolean isTrue() {
-		return false;
-	}
+	/*
+	 * @RequestMapping("/isTrue") public Boolean isTrue() { return false; }
+	 */
+
+	
+	  @RequestMapping("/isFalse") public Boolean isFalse() { return true; }
+	 
+
 
 	@RequestMapping("/showData")
 	public List<Map<String, Object>> getProcCallResult() {
