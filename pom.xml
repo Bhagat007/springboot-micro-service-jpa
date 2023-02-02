@@ -26,11 +26,11 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<!-- DataBase -->
-		<dependency>
+<!--		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>sqljdbc4</artifactId>
 			<version>4.0</version>
-		</dependency>
+		</dependency>-->
 		
        <!-- Use MySQL Connector-J -->
          <dependency>
