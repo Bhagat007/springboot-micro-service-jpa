@@ -5,11 +5,11 @@ In this springboot app I have setup github actions CICD process which will first
 Following are the commands to pull image from dockerhub and run locally. 
 	
 	docker pull 61444/springboot-projects-githubactions
-	docker run --publish 8080:8080 springboot-projects-githubactions:latest
+	docker run --publish 8080:8080 61444/springboot-projects-githubactions
 
 Other commands.
 
-        docker push springboot-projects-githubactions:latest
+        docker push 61444/springboot-projects-githubactions:latest
 	    docker ps
 	    docker images
 
