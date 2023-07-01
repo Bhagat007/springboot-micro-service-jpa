@@ -1,3 +1,4 @@
+/*
 
 package com.demo.security;
 
@@ -40,3 +41,4 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 
 }
+*/
