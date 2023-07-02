@@ -9,18 +9,19 @@ Following are the commands to pull image from dockerhub and run locally.
 
 Other commands.
 
-        docker push 61444/springboot-projects-githubactions:latest
-	    docker ps
-	    docker images
+	docker push 61444/springboot-projects-githubactions:latest
+	docker ps
+	docker images
 
  Command to run springboot app from cmd.
  
+	mvn clean install -DskipTests
 	mvn spring-boot:run
 
 Files that are needed to setup CICD. 
 
-	 .github/workflows/github-actions-demo.yml
-     Dockerfile
+      .github/workflows/github-actions-demo.yml
+       Dockerfile
 		
 Add following in pom.xml to give final name for jar.
 
