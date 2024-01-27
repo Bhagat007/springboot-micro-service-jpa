@@ -7,7 +7,7 @@ Following are the commands to pull image from dockerhub and run locally.
 	docker pull 61444/springboot-projects-githubactions
 	docker run --publish 8080:8080 61444/springboot-projects-githubactions
 
-Other commands.
+Other commands
 
 	docker push 61444/springboot-projects-githubactions:latest
 	docker ps
