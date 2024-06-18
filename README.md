@@ -26,3 +26,7 @@ Files that are needed to setup CICD.
 Add following in pom.xml to give final name for jar.
 
 	<finalName>springboot-images-github-actions</finalName>
+ 
+Remote debugging :-
+
+       -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 
